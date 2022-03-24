@@ -12,4 +12,56 @@
 <h2>Permier jour de travail : 28/2/2022</h2>
 
 <p> <br> <span class="important"> <li> Gabriel Vernet-Gehin, Thibault Pineau</li> </span class="important"> </br> </p>
+<h3>1.Premier jour</h3>
+<p>Choix du sujet:</p>
+<ul>
+  <li>Créer un système d’assistance pour jouer au pendu en utilisant des bases de données</li>
+</ul>
+<p>Quelles questions se poser au préalable :</P>
+<ul>
+    <li>Comment créer le dossier de projet ?</li>
+  	<li>Via un logiciel tiers dénommé Sublim Text 3,</li>
+    <li>Choisir le langage du projet: Python VS Javascript</li>
+    <li>Quelle base de donnée?</li>
+    <li>De quoi avons-nous besoin? (Dictionnaires)</li>
+    <li>des dictionnaires comportants:</li>
+        <ul> 
+            <li> des mots de la langue française</li>
+        </ul>
+    <li> Format csv</li>	
+			
+</ul>
+<h3>2.Premier programme</h3>
+<p>Création d'un pendu "naif"- Un pendu "dictionnnaire"</p>
+<h3>3.Première expérience</h3>
+<p>De quoi avez-vous besoin pour gagner rapidement au pendu?</p>
+
+21/03/2022
+
+Mise en place d'un GitHub afin de pouvoir s'échanger plus facilement
+des fichers dossiers etc...
+
+Début de la programmation du pendu de base avec une base de 30/40 mots
+
+24/03/2022
+
+Début de la mis en html du dossier de projet
+
+Implatation de la base de 39 mots dans le dossier du programme pendu
+
+Ajout de commentaire pour décrire ce qui se passe dans le programme.
+
+Continue/termine de faire le programme phyton du pendu de base.
+
+Le jeu marche a moitié...
+
+1 fois sur 2, lorsque le mot a été deviné, une erreur apparait et le programme s'arrete -> il faut la corriger.
+
+
+ajout du "dossier pendu" sur le github du projet :
+read me pour lers règle
+pendu.py pour le jeu
+world.txt pour la liste de mot pour pendu.py
+
+
 
