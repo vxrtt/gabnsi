@@ -21,9 +21,9 @@ def loadWords():
     return wordlist
 def chooseWord(wordlist):
     """
-    wordlist (list): lsite de mots (strings)
+    wordlist (list): liste de mots (strings)
 
-    Renvoie un mot de la liste de mots au hasard.
+    Renvoie un mot de la liste au hasard.
     """
     return random.choice(wordlist)
 
@@ -32,7 +32,7 @@ wordlist = loadWords()
 
 def isWordGuessed(secretWord, lettersGuessed):
     '''
-    secretWord: string, mot que l'utilisateur est en train de deviner
+    secretWord: string, mot que le joueur est en train de deviner
     lettersGuessed: list, quelles lettres ont été devinées jusqu'à présent
     returns: boolean, True si toutes les lettres de secretWord sont dans lettersGuessed;
       Sinon : False
@@ -49,7 +49,7 @@ def isWordGuessed(secretWord, lettersGuessed):
 
 def getGuessedWord(secretWord, lettersGuessed):
     '''
-    secretWord: string, mot que l'utilisateur est en train de deviner
+    secretWord: string, mot que le joueur est en train de deviner
     lettersGuessed: list, quelles lettres ont été devinées jusqu'à présent
     returns: string, composé de lettres et de caractères de soulignement qui représente
       quelles lettres de secretWord ont été devinées jusqu'à présent.
@@ -82,7 +82,7 @@ def getAvailableLetters(lettersGuessed):
 
 def hangman(secretWord):
     '''
-    secretWord: string, le mot secret à deviner.
+    secretWord: string, est le mot secret à deviner.
 
     Lance le jeu du Pendu.
 
