@@ -12,7 +12,7 @@
 <h2>Permier jour de travail : 28/2/2022</h2>
 
 <p> <br> <span class="important"> <li> Gabriel Vernet-Gehin, Thibault Pineau</li> </span class="important"> </br> </p>
-<h3>1.Premier jour</h3>
+<h2>1.Premier jour</h2>
 <p>Choix du sujet:</p>
 <ul>
   <li>Créer un système d’assistance pour jouer au pendu en utilisant des bases de données</li>
@@ -31,37 +31,30 @@
     <li> Format csv</li>	
 			
 </ul>
-<h3>2.Premier programme</h3>
+<h2>2.Premier programme</h2>
 <p>Création d'un pendu "naif"- Un pendu "dictionnnaire"</p>
-<h3>3.Première expérience</h3>
+<h2>3.Première expérience</h2>
 <p>De quoi avez-vous besoin pour gagner rapidement au pendu?</p>
-
-21/03/2022
-
-Mise en place d'un GitHub afin de pouvoir s'échanger plus facilement
-des fichers dossiers etc...
-
-Début de la programmation du pendu de base avec une base de 30/40 mots
-
-24/03/2022
-
-Début de la mis en html du dossier de projet
-
-Implatation de la base de 39 mots dans le dossier du programme pendu
-
-Ajout de commentaire pour décrire ce qui se passe dans le programme.
-
-Continue/termine de faire le programme phyton du pendu de base.
-
-Le jeu marche a moitié...
-
-1 fois sur 2, lorsque le mot a été deviné, une erreur apparait et le programme s'arrete -> il faut la corriger.
-
-
-ajout du "dossier pendu" sur le github du projet :
-read me pour lers règle
-pendu.py pour le jeu
-world.txt pour la liste de mot pour pendu.py
-
+<h3>21/03/22</h3>
+<p>Mise en place d'une manière de communication pour le projet </p>
+<p>Création d'un projet commun sur github</p>
+<p>Début de création d'un pendu naif avec une base de donné de 30/40 mots</p>
+<h3>24/03/22</h3>
+<p>Début du dossier de projet codé en html</p>
+<p>Implentation de 39 mots dans la base de donnée pour commencer on a utilisé une base de mots commençant</p>
+<h1>il faut que j'introduise le fichier avec les 39 mots</h1>
+<p>Ajout de commentaire dans le programme pour comprendre ce qu'il se passe </p>
+<p>Fin de la création du pendu naif </p>
+<p>Le jeu rencontre des problème:</p>
+    <ul>
+        <li>1 fois sur 2 quand le jeu se termine il affiche un message d'erreur</li>
+            
+    </ul>
+<p>Mise a jour du dossier de projet rajout du "dossier pendu"</p>
+    <ul>
+        <li>Read me pour les règles</li>
+        <li>Pendu.py pour le codage du jeu</li>
+        <li>World.txt pour la base de donnée de mot utilisé pour le moment</li>
+    </ul>
 
 
