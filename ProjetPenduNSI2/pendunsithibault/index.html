@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"> <!--Permet d'encoder le site sous UTF-8 -->
+    <title>Projet Pendu NSI</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width"> <!-- La balise "viewport" sert a contrôler/adapter la mise en page sur mobile-->
+                                                        <!-- La propriété width contrôle la taille de la zone d'affichage, ici, elle est assigné a device. -->
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css"> <!-- corrected path to where the file is==same directory as index-->
+</head>
+<body>
+
+
+
+  <body>
+<div class='row'>   <div class='col-sm-8 hanghead'><button type="bouton" class="btn btn-default pull-right" data-toggle="modal" data-target="#info">besoin d'aide?</button><h1 class="titre">Pendu</h1></div></div>
+
+<div id='info' class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="bouton" class="close" data-dismiss="modal" aria-label="Close"></button>
+        <h3 class="modal-titre">Bienvenue Pendu!</h3>
+      </div>
+      <div class="modal-body">
+        <h4>Bienvenue, Pendu ! Tu as pour mission de trouver le mot auquel je pense, si tu ne trouves pas le mot, tu seras pendu !</h4>
+        <ol>
+
+            <li>Cliquez pour choisir une lettre, lettres se situant à gauche.</li>
+            <li>Si la lettre du mot auquel je pense apparait, elle s'affichera à l'endroit dans lequel elle appartient au mot, sinon, elle sera en dessous de votre tombe et donc ne fait pas parti du mot auquel je pense...</li>
+            <li>Répétez jusqu’à ce que vous deviniez le mot entier ou vous serez pendu !</li>
+            <!-- [sudden death button info here if we want] -->
+        </ol>
+      </div>
+      <div class="modal-footer">
+
+<button type="bouton" class="bouton-par-defaut" data-dismiss="modal">Fermer</button>
+
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade" id="message-de-victoire" role="dialog" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-titre">FELICITATIONS !</h4>
+      </div>
+      <div class="modal-body">
+        <h5>Félicitations, vous avez gagner!</h5>
+      </div>
+      <div class="modal-footer">
+        <button class="btn reset" data-dismiss="modal"> Recommencer? </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="gameover_message" role="dialog" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-titre">Vous avez perdu..</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <img class= "center-block" src="img/deadDude.png" alt="Dude dead!">
+            </div><!--cold-md-8-->
+          </div><!--.row-->
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <p class="lead"></p>
+            </div><!--./col-md-8-->
+          </div><!--/.row-->
+        </div><!--/.container-fluid-->
+      </div><!--/.modal-body-->
+      <div class="modal-footer">
+        <button class="btn reset" data-dismiss="modal"> Recommencer ? </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="row">
+
+      <div id="alphabet" class="col-sm-4">
+        <div class="boutonpourlettre">A</div>
+        <div class="boutonpourlettre">B</div>
+        <div class="boutonpourlettre">C</div>
+        <div class="boutonpourlettre">D</div>
+        <div class="boutonpourlettre">E</div>
+        <div class="boutonpourlettre">F</div>
+        <div class="boutonpourlettre">G</div>
+        <div class="boutonpourlettre">H</div>
+        <div class="boutonpourlettre">I</div>
+        <div class="boutonpourlettre">J</div>
+        <div class="boutonpourlettre">K</div>
+        <div class="boutonpourlettre">L</div>
+        <div class="boutonpourlettre">M</div>
+        <div class="boutonpourlettre">N</div>
+        <div class="boutonpourlettre">O</div>
+        <div class="boutonpourlettre">P</div>
+        <div class="boutonpourlettre">Q</div>
+        <div class="boutonpourlettre">R</div>
+        <div class="boutonpourlettre">S</div>
+        <div class="boutonpourlettre">T</div>
+        <div class="boutonpourlettre">U</div>
+        <div class="boutonpourlettre">V</div>
+        <div class="boutonpourlettre">W</div>
+        <div class="boutonpourlettre">X</div>
+        <div class="boutonpourlettre">Y</div>
+        <div class="boutonpourlettre">Z</div>
+      </div>
+
+      <div id="hangman-graphic" class="col-sm-3">
+        <img src="img/hangman-graphic/background.png">
+        <img class="image-frame-pendus" id="hangman-frame0"
+             src="img/hangman-graphic/hangman0.jpg">
+        <img class="image-frame-pendus" id="hangman-frame1"
+             src="img/hangman-graphic/hangman1.jpg">
+        <img class="image-frame-pendus" id="hangman-frame2"
+             src="img/hangman-graphic/hangman2.jpg">
+        <img class="image-frame-pendus" id="hangman-frame3"
+             src="img/hangman-graphic/hangman3.jpg">
+        <img class="image-frame-pendus" id="hangman-frame4"
+             src="img/hangman-graphic/hangman4.jpg">
+        <img class="image-frame-pendus" id="hangman-frame5"
+             src="img/hangman-graphic/hangman5.jpg">
+        <img class="image-frame-pendus" id="hangman-frame6"
+             src="img/hangman-graphic/hangman6.jpg">
+        <img class="image-frame-pendus" id="hangman-frame7"
+             src="img/hangman-graphic/hangman7.jpg">
+
+        <div class="controles-pendu">
+          <button class="btn btn-success reset">
+          Reset
+          </button>
+        </div>
+      </div>
+
+      <div id="lettre-tombe" class="col-sm-4">
+        <img src="img/graveyard.jpg">
+      </div>
+    </div>
+
+
+    <div class="row text-center">
+      <div id="mot-a-deviner" ></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="scripts/hangModal.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+
+
+
+</html>
