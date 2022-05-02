@@ -57,4 +57,24 @@
         <li>World.txt pour la base de donnée de mot utilisé pour le moment</li>
     </ul>
 
+04/04/22
+abandon du pendu en python, mise en place d'un pendu en html avec javascrpit et css.
+
+mais je ne connais aucune réelle notion en javascrpit, 
+je regarde donc la documentation de javascrpit en essayant de comprendre a quoi correspond tel notion
+
+07/04/22
+mise en place d'une page html pendu projet nsi,
+faire les bases et essayer d'ajouter des images aux sites,
+et ça marche.
+
+8 et 9/04/22
+structuration du projet, creer des dossiers pour organiser et ranger des fichiers
+creation d'un dossier readme pour expliquer a quoi correspond quoi, le but du pendu et quelques
+informations avant de lancer le projet.
+
+13/04/22
+ajout d'un petit dictionnaire de quelques mots de petite taille 
+
+
 
