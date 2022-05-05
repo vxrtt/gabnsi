@@ -8,11 +8,15 @@ Veillez à ne pas changer d'emplacement les fichiers/dossiers, sinon le jeu ne f
 ========
 
 A quoi sert le dossier :
+
 IMG ?
+
 le dossier img sert a stocker les images qui appariateront sur le site.
 STYLES ?
+
 le dossier styles permet de regrouper des fichers en .css pour le site html.
 SCRIPTS ?
+
 le dossier scrpits permet d'ajouter le scrpit en .js pour que "le coeur du site", qui
 permet de faire que le pendu fonctionne.
 
