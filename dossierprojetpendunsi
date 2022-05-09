@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<link rel="stylesheet" href="style_gabriel.css"/>
+<meta charset="UTF-8">
+<title>Projet Pendu</title>
+</head>
+<body>
+##
+<h1> <span class="lettre">DOSSIER DE PROJET : PENDU</h1>
+
+<h2>Permier jour de travail : 28/2/2022</h2>
+
+<p> <br> <span class="important"> <li> Gabriel Vernet-Gehin, Thibault Pineau</li> </span class="important"> </br> </p>
+<h2>1.Premier jour</h2>
+<p>Choix du sujet:</p>
+<ul>
+  <li>Créer un système d’assistance pour jouer au pendu en utilisant des bases de données</li>
+</ul>
+<p>Quelles questions se poser au préalable :</P>
+<ul>
+    <li>Comment créer le dossier de projet ?</li>
+  	<li>Via un logiciel tiers dénommé Sublim Text 3,</li>
+    <li>Choisir le langage du projet: Python VS Javascript</li>
+    <li>Quelle base de donnée?</li>
+    <li>De quoi avons-nous besoin? (Dictionnaires)</li>
+    <li>des dictionnaires comportants:</li>
+        <ul> 
+            <li> des mots de la langue française</li>
+        </ul>
+    <li> Format csv</li>	
+			
+</ul>
+<h2>2.Premier programme</h2>
+<p>Création d'un pendu "naif"- Un pendu "dictionnnaire"</p>
+<h2>3.Première expérience</h2>
+<p>De quoi avez-vous besoin pour gagner rapidement au pendu?</p>
+<h3>21/03/22</h3>
+<p>Mise en place d'une manière de communication pour le projet </p>
+<p>Création d'un projet commun sur github</p>
+<p>Début de création d'un pendu naif avec une base de donné de 30/40 mots</p>
+<h3>24/03/22</h3>
+<p>Début du dossier de projet codé en html</p>
+<p>Implentation de 39 mots dans la base de donnée pour commencer on a utilisé une base de mots commençant</p>
+<h1>il faut que j'introduise le fichier avec les 39 mots</h1>
+<p>Ajout de commentaire dans le programme pour comprendre ce qu'il se passe </p>
+<p>Fin de la création du pendu naif </p>
+<p>Le jeu rencontre des problème:</p>
+    <ul>
+        <li>1 fois sur 2 quand le jeu se termine il affiche un message d'erreur</li>
+            
+    </ul>
+<p>Mise a jour du dossier de projet rajout du "dossier pendu"</p>
+    <ul>
+        <li>Read me pour les règles</li>
+        <li>Pendu.py pour le codage du jeu</li>
+        <li>World.txt pour la base de donnée de mot utilisé pour le moment</li>
+    </ul>
+<h3>04/04/22</h3> 
+<p>Abandon du pendu en python, mise en place d'un pendu en html avec javascrpit et css.</p>
+<p>Mais je ne connais aucune réelle notion en javascrpit, 
+je regarde donc la documentation de javascrpit en essayant de comprendre a quoi correspond tel notion.
+</p>
+<h3>07/04/22</h3>
+<p>Mise en place d'une page html pendu projet nsi,
+faire les bases et essayer d'ajouter des images aux sites,
+et ça marche.</p>
+<h3>8 et 9/04/22</h3> 
+<p>Structuration du projet, creer des dossiers pour organiser et ranger des fichiers
+creation d'un dossier readme pour expliquer a quoi correspond quoi, le but du pendu et quelques
+informations avant de lancer le projet.</p>
+<h3>13/04/22</h3>
+Ajout d'un petit dictionnaire de quelques mots de petite taille. 
+
+<h2>Explication du programme</h2>
+<h3>Image pendu</h3>
+<p>Voici les image utilisés </p>
+
+  
+<img src="projet/pendu photo.jpg" >
+
+ 
+</html>
